@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/weather.css">
+    <title>Weather</title>
+</head>
+<body>
+    <header id='header-weather'>
+        {% if weather_cond == "Clear" or weather_cond=='Clouds' or weather_cond=='rain' %}
+            <div class="weather-image-sun">
+                <img src="../static/img/sun.png">
+            </div>
+            <div class="weather-image-cloud">
+                <img src="../static/img/cloud.png">
+            </div>
+            <div class="weather-image-cloud">
+                <img id="one-cloud" src="../static/img/cloud-2.png">
+            </div>
+            <div class="weather-image-cloud">
+                <img id="two-cloud" src="../static/img/cloud-2.png">
+            </div>
+            <div class="weather-image-cloud">
+                <img id="three-cloud" src="../static/img/cloud-2.png">
+            </div>
+
+            <div class="weather-image-rain">
+                <img src="../static/img/rain.png">
+            </div>
+            {% else %}
+            <div class="weather-image-foudre">
+                <img src="../static/img/foudre.png">
+            </div>
+            <div class="weather-image-snow">
+                <img src="../static/img/snow.png">
+            </div>
+        {% endif %}
+        <div id="place-name">
+            <h1>{{place}}</h1>
+        </div>
+
+        <div id="temp-c">
+            <div id="thermometer-icon">
+                <img src="../static/img/thermometer-white.png">
+            </div>
+            <h3>{{temp_c}}°c</h3>
+        </div>
+
+    </header>
+</body>
+</html>

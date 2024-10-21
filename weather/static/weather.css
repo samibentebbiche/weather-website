@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("img/weather-background.jpg");
+	background-size: cover; 
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+body header#header-weather{
+    margin: 5% 0;
+    background-color: rgba(82, 125, 165, 0.829);
+    padding: 2% 10% 5% 10%;
+    color: rgb(255, 255, 255);
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+body header#header-weather #place-name{
+    font-size: 2em;
+    letter-spacing: 12px;
+    margin-top: 200px;
+}
+body header#header-weather #temp-c{
+    margin-top: 2%;
+    font-size: 1.5em;
+    display: inline-block;
+}
+body header#header-weather #temp-c h3{
+    padding-left: 30%;
+
+}
+
+body header#header-weather .weather-image-sun img{
+    margin-left: 3%;
+    width: 150px;
+    height: 170px;
+    position: absolute;
+}
+body header#header-weather .weather-image-cloud img{
+    margin-top: 2%;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    z-index: 1;
+}
+body header#header-weather .weather-image-cloud img#two-cloud{
+    margin-top: 2%;
+    margin-left: 6%;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    z-index: 1;
+}
+body header#header-weather .weather-image-cloud img#three-cloud{
+    margin-top: 0%;
+    margin-left: 4%;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    z-index: 1;
+}
+body header#header-weather .weather-image-rain img{
+    margin-top: 7%;
+    margin-left: 3%;
+    width: 150px;
+    height: 170px;
+    position: absolute;
+}
+body header#header-weather .weather-image-foudre img{
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 100px;
+    height: 110px;
+    position: absolute;
+}
+body header#header-weather .weather-image-snow img{
+    margin-top: 8%;
+    margin-left: 3%;
+    width: 150px;
+    height: 170px;
+    position: absolute;
+}
+
+
+body header#header-weather #temp-c #thermometer-icon img{
+    height: 1.2em;
+    width: 1.1em;
+    position: absolute;
+}
