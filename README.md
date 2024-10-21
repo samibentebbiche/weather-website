@@ -24,7 +24,7 @@ This project is a simple web application built using Python and Flask that displ
 ## Usage
 1. Run the Flask Application:
    ```bash
-   python app.py
+   python run.py
 
 2. Access the Application:
    * By default, the application will run on http://127.0.0.1:5000/
