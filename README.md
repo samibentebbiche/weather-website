@@ -16,3 +16,13 @@ This project is a simple web application built using Python and Flask that displ
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+
+## Usage
+1. Run the Flask Application:
+   ```bash
+   python app.py
+
+2. Access the Application:
+   * By default, the application will run on http://127.0.0.1:5000/
+   * Open your web browser and go to http://127.0.0.1:5000/
+   * Enter the name of the city you wish to check the weather for and click submit to view the current weather information.
