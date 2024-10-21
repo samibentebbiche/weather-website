@@ -1,5 +1,5 @@
 # Weather Website
-This project is a simple web application built using Python and Flask that displays the current weather for any city. The weather data is fetched in real-time from the OpenWeatherMap API, allowing users to get accurate and up-to-date information.
+This repo is an old web application that i have built using Python and Flask that displays the current weather for any city. The weather data is fetched in real-time from the OpenWeatherMap API, allowing users to get accurate and up-to-date information.
 
 
 ![image](https://github.com/user-attachments/assets/c4749aef-4834-42ef-a889-507c3f37c409)
